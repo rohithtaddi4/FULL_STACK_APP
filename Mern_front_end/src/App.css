@@ -1,0 +1,106 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header {
+  height: 86px;
+  width: 100%;
+  /* color: red; */
+  background-color: red;
+  text-align: center;
+  padding: 1px;
+  color: white;
+  margin-bottom: 50px;
+}
+label {
+  padding: 10px 48px;
+  border: 3px solid;
+  border-radius: 48px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+  color: blue;
+}
+label:hover {
+  padding: 12px 50px;
+}
+label.active{
+  background-color: aliceblue;
+  color: blue;
+}
+label span{
+  font-weight: normal;
+}
+.display {
+  display: none;
+}
+.button {
+  padding: 10px 48px;
+  border: 3px solid;
+  border-radius: 48px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+  color: blue;
+  background-color: white;
+  margin-top: 50px;
+}
+
+.button:hover {
+  padding: 12px 50px;
+}
+
+.inner {
+  margin-top: 40px;
+}
+
+.hidden{
+  margin-top: 20px;
+}
+
+.upload{
+  color: blue;
+}
+
+.result {
+  color: green;
+}
+
+.fail{
+  color: red;
+}
